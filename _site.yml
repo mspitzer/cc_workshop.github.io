@@ -1,0 +1,21 @@
+name: "CC Workshop"
+author: "CC Wprkshop"
+output_dir: "docs"
+exclude: ["*.xls", "*.csv","*.R"]
+output:
+  html_document:
+    df_print: paged
+    theme: flatly
+    highlight: tango
+navbar:
+  title: "CC Workshop"
+  left:
+  - text: "CC Workshop"
+    icon: fa-home
+    href: /
+  - text: "Tutorial"  
+    menu: 
+    - text: "Schedule"
+      href: tutorial.html
+    - text: "Introduction"
+      href: intro.html
